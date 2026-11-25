@@ -1,0 +1,53 @@
+{
+  "dataset_type": "SENTINEL2_L2A",
+  "source": "Element84 Earth Search STAC (Sentinel-2 L2A COGs)",
+  "region_name": "Deepor Beel, Guwahati",
+  "bbox_wgs84": [
+    91.615,
+    26.095,
+    91.685,
+    26.145
+  ],
+  "extent_3857": [
+    10198463.074728291,
+    3010763.6893477864,
+    10206394.270444546,
+    3017133.1868920643
+  ],
+  "width": 707,
+  "height": 562,
+  "bands": [
+    "Red",
+    "Green",
+    "Blue",
+    "NIR",
+    "SWIR16",
+    "SCL"
+  ],
+  "crs": "EPSG:32646",
+  "pixel_size_m": 10.0,
+  "before_range": "2024-04-01/2024-08-30",
+  "after_range": "2025-01-01/2025-04-30",
+  "max_cloud_cover": 15.0,
+  "before_scene": {
+    "id": "S2A_46RCP_20240425_0_L2A",
+    "datetime": "2024-04-25T04:41:27.615000Z",
+    "date": "2024-04-25",
+    "cloud_cover": 5.09,
+    "platform": "sentinel-2a"
+  },
+  "after_scene": {
+    "id": "S2B_46RCP_20250306_0_L2A",
+    "datetime": "2025-03-06T04:41:28.505000Z",
+    "date": "2025-03-06",
+    "cloud_cover": 0.05,
+    "platform": "sentinel-2b"
+  },
+  "before": "Sentinel-2 L2A (2024-04-25)",
+  "after": "Sentinel-2 L2A (2025-03-06)",
+  "stretch_bounds": [
+    0.0467,
+    0.165
+  ],
+  "note": "Real Sentinel-2 L2A surface reflectance. Detected changes require field/expert verification."
+}

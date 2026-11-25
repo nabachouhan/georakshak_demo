@@ -1,0 +1,36 @@
+{
+  "candidate_feature_count": 51,
+  "candidate_area_ha": 27.78,
+  "zone_counts": {
+    "INSIDE_WETLAND": 13,
+    "INSIDE_GOVT_LAND": 12,
+    "OUTSIDE_BOUNDARIES": 26
+  },
+  "zone_area_ha": {
+    "INSIDE_WETLAND": 7.03,
+    "INSIDE_GOVT_LAND": 10.22,
+    "OUTSIDE_BOUNDARIES": 10.53
+  },
+  "alert_counts": {
+    "CRITICAL": 13,
+    "HIGH": 12,
+    "MEDIUM": 0,
+    "LOW": 26
+  },
+  "indices_used": [
+    "NDVI",
+    "NDWI",
+    "MNDWI",
+    "NDBI",
+    "BSI"
+  ],
+  "threshold": 0.2,
+  "minimum_pixels": 16,
+  "detection_mode": "encroachment",
+  "cloud_or_nodata_masked_pct": 1.14,
+  "dataset_type": "SENTINEL2_L2A",
+  "region_name": "Deepor Beel, Guwahati",
+  "before_date": "2024-04-25",
+  "after_date": "2025-03-06",
+  "note": "Alerts combine NDVI, NDWI, MNDWI, NDBI, and BSI consensus with Wetland & Govt Land boundary intersections."
+}
